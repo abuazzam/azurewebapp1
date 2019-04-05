@@ -27,6 +27,7 @@ if (isset($_POST['submit'])) {
         $stmt->bindValue(4, $password);
         $stmt->bindValue(5, $created);
         $stmt->execute();
+        header('location: index.php');
     } catch(Exception $e) {
         echo "Failed: " . $e;
     }
