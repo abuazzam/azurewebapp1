@@ -1,8 +1,8 @@
 <?php 
-$host = "";
-$user = "";
-$pass = "";
-$db = "";
+$host = "satuwebapp.database.windows.net";
+$user = "satuwebapp";
+$pass = "Satu123#";
+$db = "satuwebapp";
 
 try {
     $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
