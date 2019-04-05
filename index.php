@@ -1,8 +1,8 @@
 <?php 
-$host = "<Nama server database Anda>";
-$user = "<Nama admin database Anda>";
-$pass = "<Password admin database Anda>";
-$db = "<Nama database Anda>";
+$host = "";
+$user = "";
+$pass = "";
+$db = "";
 
 try {
     $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
