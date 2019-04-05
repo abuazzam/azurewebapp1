@@ -80,7 +80,7 @@ if (isset($_POST['submit'])) {
                                 <input name="password" type="password" placeholder="Password" class="textbox">
                             </div>
                             <div>
-                                <span><input type="submit" value="Submit"></span>
+                                <span><input type="submit" name="submit" value="Submit"></span>
                             </div>
                         </form>
                     </div>
